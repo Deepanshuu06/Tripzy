@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
 
 function Body() {
   return (
-    <div>Body</div>
+    <div>
+<Navbar/>
+<Hero/>
+    </div>
   )
 }
 
